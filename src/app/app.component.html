@@ -1,6 +1,6 @@
 <div class="jumbotron text-center">
-  <button type="button" class="btn btn-success">Success</button>
-  <br>
-  <img class="img" src="../assets/img/dice1.png">
-  <img class="img" src="../assets/img/dice4.png">
+  <button type="button" class="btn btn-success btn-lg" (click)="tirarDados()">Tirar Dados</button>
+  <br> <br>
+  <img class="img" [src] = "dadoIzquierda">
+  <img class="img" [src] = "dadoDerecha">
 </div>
